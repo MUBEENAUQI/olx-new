@@ -25,7 +25,6 @@ class SellScreenState extends State<Sell> {
           Widget>[
         Container(
           width: MediaQuery.of(context).size.width,
-         height: MediaQuery.of(context).size.height,
           child: Padding(
             padding: const EdgeInsets.fromLTRB(0.0, 5.0, 8.0, 0.0),
             child: Container(
@@ -85,7 +84,7 @@ class SellScreenState extends State<Sell> {
         GridView.count(
             shrinkWrap: true,
             crossAxisCount: 2,
-            childAspectRatio: MediaQuery.of(context).size.height / 250,
+            childAspectRatio: MediaQuery.of(context).size.height / 400,
             padding: const EdgeInsets.all(15),
             children: <Widget>[
               GestureDetector(
